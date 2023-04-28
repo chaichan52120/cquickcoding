@@ -1,7 +1,9 @@
 import { createApp } from "vue";
-import App from "./App.vue";
 import { Quasar } from "quasar";
 import quasarLang from "quasar/lang/th";
+
+import App from "./App.vue";
+import router from "./router";
 
 // Import icon libraries
 import "@quasar/extras/roboto-font/roboto-font.css";
@@ -17,4 +19,5 @@ createApp(App)
     plugins: {}, // import Quasar plugins and add here
     lang: quasarLang,
   })
+  .use(router)
   .mount("#app");

@@ -51,6 +51,11 @@ export default {
 <template>
   <div class="q-pa-md q-gutter-sm">
     <q-tree :nodes="simple" node-key="label" no-connectors v-model:expanded="expanded" />
+    <div id="nav">
+      <router-link to="/">Home</router-link> |
+      <router-link to="/about">About</router-link>
+    </div>
+    <router-view />
   </div>
 </template>
 
