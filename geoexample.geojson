@@ -5,10 +5,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [100.5018, 13.7563]  // Bangkok
+        "coordinates": [100.0, 0.0]
       },
       "properties": {
-        "name": "Sample Point in Thailand"
+        "name": "Sample Point"
       }
     },
     {
@@ -16,12 +16,12 @@
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [100.5018, 13.7563],  // Bangkok
-          [98.9817, 18.7883]    // Chiang Mai
+          [100.0, 0.0],
+          [101.0, 1.0]
         ]
       },
       "properties": {
-        "name": "Sample Line from Bangkok to Chiang Mai"
+        "name": "Sample Line"
       }
     },
     {
@@ -30,15 +30,16 @@
         "type": "Polygon",
         "coordinates": [
           [
-            [100.5018, 13.7563],  // Bangkok
-            [98.9817, 18.7883],   // Chiang Mai
-            [102.7837, 16.4023],  // Khon Kaen
-            [100.5018, 13.7563]   // Back to Bangkok
+            [100.0, 0.0],
+            [101.0, 0.0],
+            [101.0, 1.0],
+            [100.0, 1.0],
+            [100.0, 0.0]
           ]
         ]
       },
       "properties": {
-        "name": "Sample Polygon in Thailand"
+        "name": "Sample Polygon"
       }
     }
   ]
