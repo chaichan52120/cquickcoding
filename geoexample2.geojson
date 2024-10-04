@@ -1,0 +1,124 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "id": "Items_Flood_7days",
+            "type": "Feature",
+            "stac_version": "1.0.0",
+            "stac_extensions": [
+                "..."
+            ],
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            98.92342,
+                            13.9417
+                        ],
+                        [
+                            105.102,
+                            13.9417
+                        ],
+                        [
+                            105.102,
+                            20.4597
+                        ],
+                        [
+                            98.92342,
+                            20.4597
+                        ],
+                        [
+                            98.92342,
+                            13.9417
+                        ]
+                    ]
+                ]
+            },
+            "bbox": [
+                98.92342,
+                13.9417,
+                105.102,
+                20.4597
+            ],
+            "properties": {
+                "created": "2024-10-04T05:22:53.812Z",
+                "datetime": "2024-09-27T00:10:00Z",
+                "updated": "2024-10-04T05:22:53.812Z"
+            },
+            "assets": {
+                "Style": {
+                    "href": "https://disaster-vallaris.gistda.or.th/core/api/styles/1.0-beta/styles/66a0846967da3582878c0fd8?api_key=WNmJ1S4GoZyp5euW2lUKLaBszKGhrgzQzJzgo5QYxuiMQc2JX3bnm1QTcOo7cwRT",
+                    "title": "Style",
+                    "type": "application/json",
+                    "roles": [
+                        "Style"
+                    ]
+                },
+                "Tile": {
+                    "href": "https://disaster-vallaris.gistda.or.th/core/api/tiles/1.0-beta/tiles/63450d37f5c73e087b48fe07?api_key=WNmJ1S4GoZyp5euW2lUKLaBszKGhrgzQzJzgo5QYxuiMQc2JX3bnm1QTcOo7cwRT",
+                    "title": "Vector Tiles",
+                    "type": "application/json",
+                    "roles": [
+                        "Vector Tiles"
+                    ]
+                },
+                "data": {
+                    "href": "https://disaster-vallaris.gistda.or.th/core/api/features/1.0/collections/633b143277680cdaa7da2247/items?api_key=WNmJ1S4GoZyp5euW2lUKLaBszKGhrgzQzJzgo5QYxuiMQc2JX3bnm1QTcOo7cwRT",
+                    "title": "Features",
+                    "type": "application/geo+json",
+                    "roles": [
+                        "Features"
+                    ]
+                }
+            },
+            "collection": "Collection_Flood_7days",
+            "links": [
+                {
+                    "href": "https://disaster-vallaris.gistda.or.th/core/api/stac/1.0/Flood/collections/Collection_Flood_7days/items/Items_Flood_7days?api_key=ErNGa8yrMWef0YutwmL7XvpwWQNCK2kVPNt5dAwWbBMnvDoifTEhD75H3DCENjKJ",
+                    "rel": "self",
+                    "type": "application/geo+json"
+                },
+                {
+                    "href": "https://disaster-vallaris.gistda.or.th/core/api/stac/1.0/Flood/?api_key=ErNGa8yrMWef0YutwmL7XvpwWQNCK2kVPNt5dAwWbBMnvDoifTEhD75H3DCENjKJ",
+                    "rel": "root",
+                    "type": "application/json"
+                },
+                {
+                    "href": "https://disaster-vallaris.gistda.or.th/core/api/stac/1.0/Flood/collections/Collection_Flood_7days?api_key=ErNGa8yrMWef0YutwmL7XvpwWQNCK2kVPNt5dAwWbBMnvDoifTEhD75H3DCENjKJ",
+                    "rel": "parent",
+                    "type": "application/json"
+                },
+                {
+                    "href": "https://disaster-vallaris.gistda.or.th/core/api/stac/1.0/Flood/collections/Collection_Flood_7days?api_key=ErNGa8yrMWef0YutwmL7XvpwWQNCK2kVPNt5dAwWbBMnvDoifTEhD75H3DCENjKJ",
+                    "rel": "collection",
+                    "type": "application/json"
+                }
+            ],
+            "parents": [],
+            "stac": "Flood",
+            "created_at": "2022-10-18T15:05:51.617Z",
+            "created_by": "624406d60b8b7413ae860641",
+            "updated_at": "2024-10-03T22:40:56.681Z",
+            "updated_by": "624406d60b8b7413ae860641"
+        }
+    ],
+    "links": [
+        {
+            "href": "https://disaster-vallaris.gistda.or.th/core/api/stac/1.0/Flood/search?api_key=ErNGa8yrMWef0YutwmL7XvpwWQNCK2kVPNt5dAwWbBMnvDoifTEhD75H3DCENjKJ",
+            "rel": "self",
+            "type": "application/json"
+        },
+        {
+            "href": "https://disaster-vallaris.gistda.or.th/core/api/stac/1.0/Flood/?api_key=ErNGa8yrMWef0YutwmL7XvpwWQNCK2kVPNt5dAwWbBMnvDoifTEhD75H3DCENjKJ",
+            "rel": "root",
+            "type": "application/json"
+        }
+    ],
+    "context": {
+        "page": 1,
+        "limit": 10,
+        "matched": 1,
+        "returned": 1
+    }
+}
